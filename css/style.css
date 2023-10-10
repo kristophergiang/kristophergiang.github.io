@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.bg {
+    background: #191919;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width:100%;
+}
+
+.scaling-svg{
+  position: absolute;
+ height: 100%;
+ left: 0;
+ top: 0;
+ fill:#FFF;
+ -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.scaling-svg2{
+  position: absolute;
+ height: 100%;
+ right: 0;
+ top: 0;
+ fill:#817fbc;
+ -webkit-filter: drop-shadow( 3px 3px -2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+.center{
+    position: absolute;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  top: 40%;
+  left:40%;
+  display: table-cell;
+}
+.top-nav{
+  position: absolute;
+  right:10%;
+  top:10%;
+  float: left;
+  padding-left: 30px;
+}
+.about_me{
+  background-color:yellow;
+}
+.link_float{
+  float: left;
+  padding-left: 30px;
+}
+.links{
+  padding:30px;
+  padding-top: 100px;
+}
+.Project{
+  background: linear-gradient(#fdbb2d, #22c1c3);
+  color: white;
+  text-align: center;
+  height: 60%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  width:100%;
+}
+
+#getInTouch{
+    margin-top:100px;
+    width: 200px;
+    border: 3px solid #3BAED6;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+
+}
+a:hover{
+  /*color:blue;*/
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+
+/* Standard syntax */
+@keyframes example {
+    from {color: white;}
+    to {color: #3BAED6;}
+}
